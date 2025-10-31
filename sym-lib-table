@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name simulation)(type Legacy)(uri ${KIPRJMOD}/models/simulation.lib)(options "")(descr ""))
+)

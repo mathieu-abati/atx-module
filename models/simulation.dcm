@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VSOURCE
+D Voltage source symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VPULSE
+D Signal rectangulaire 0 à 5V. Temps de montée, descente de 1ns. Durée du pulse de 500us. Période de 1ms
+$ENDCMP
+#
+#End Doc Library
