@@ -1,0 +1,6 @@
+ATXModule-backups
+ATX Connector 24pin 90deg.stp
+models/2N2222A.lib
+*-cache.lib
+fp-info-cache
+*.lck
