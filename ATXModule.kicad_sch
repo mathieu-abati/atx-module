@@ -3664,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "33u"
 			(at 157.861 68.453 0)
 			(effects
 				(font
