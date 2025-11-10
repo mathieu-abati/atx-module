@@ -11,7 +11,7 @@ def shutdown():
     print("Shutdown")
     check_call(['sudo', 'poweroff'])
 
-shutdown_btn = Button(PIO_NB, pull_up=False, hold_time=HOLD_TIME)
+shutdown_btn = Button(PIO_NB, pull_up=None, active_state=True, hold_time=HOLD_TIME)
 shutdown_btn.when_held = shutdown
 
 pause()
