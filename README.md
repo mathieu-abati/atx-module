@@ -1,5 +1,7 @@
 # RaspberryPi ATX PSU control module
 
+![PCB](pcb.png)
+
 With an ATX PSU powering a RaspberryPi, this circuit allows to control power ON / OFF from a single posh button.
 
 ![Schema](schema.png)
