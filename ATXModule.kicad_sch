@@ -2488,6 +2488,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 180.34) (xy 110.49 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148f1cdb-8b01-4e5e-bbe1-86123139413e")
+	)
+	(wire
+		(pts
+			(xy 140.97 182.88) (xy 138.43 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167fab96-a0ab-4b24-ae89-7ef76c8d4412")
+	)
+	(wire
+		(pts
 			(xy 58.42 185.42) (xy 58.42 182.88)
 		)
 		(stroke
@@ -2596,6 +2616,26 @@
 		)
 		(uuid "430b88e2-838c-420f-aa78-1a1f7bda0e34")
 	)
+	(wire
+		(pts
+			(xy 138.43 182.88) (xy 138.43 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447f6077-8ac8-47aa-8e81-080660844cc9")
+	)
+	(wire
+		(pts
+			(xy 143.51 180.34) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c013c2-3a64-42c6-b663-71cbe00a6001")
+	)
 	(polyline
 		(pts
 			(xy 106.68 46.99) (xy 85.09 46.99)
@@ -2615,6 +2655,16 @@
 			(type default)
 		)
 		(uuid "5ddb7147-5394-4dc9-84dc-d19f677e59a6")
+	)
+	(wire
+		(pts
+			(xy 115.57 180.34) (xy 123.19 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68aa1561-27ad-471d-84bc-c31d3aadadd6")
 	)
 	(wire
 		(pts
@@ -2808,6 +2858,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 182.88) (xy 115.57 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6fb2f2-ccbb-4861-b48c-23998cd38f92")
+	)
+	(wire
+		(pts
 			(xy 137.16 127) (xy 143.51 127)
 		)
 		(stroke
@@ -2838,6 +2898,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 182.88) (xy 110.49 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b47719-2ea3-4f32-af57-214a111d4ffe")
+	)
+	(wire
+		(pts
 			(xy 137.16 142.24) (xy 143.51 142.24)
 		)
 		(stroke
@@ -2845,6 +2915,16 @@
 			(type default)
 		)
 		(uuid "bee9efec-eae5-468d-8bcf-46b173b6d91a")
+	)
+	(wire
+		(pts
+			(xy 151.13 180.34) (xy 143.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfefcb13-51f0-490e-a087-ffce967940d1")
 	)
 	(wire
 		(pts
@@ -3208,6 +3288,26 @@
 		(uuid "533e81a2-ee40-4b5d-9f01-a6d1b7e9bdaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ATX_12V"
+		(shape input)
+		(at 110.49 180.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57142a8c-cf06-486a-bdf5-73abb4067987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,6 +4605,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4ad7c60-c098-4794-bf95-f45f56231127")
+		(property "Reference" "#PWR010"
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.096 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "715878dc-68d0-4c1c-abcb-66bf4dfb26c8")
+		)
+		(instances
+			(project "ATXModule"
+				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 255.27 138.43 90)
 		(unit 1)
@@ -5016,6 +5182,272 @@
 			(project "ATXModule"
 				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 113.03 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11111a2-7161-49da-857f-b61db4f0d57e")
+		(property "Reference" "J5"
+			(at 116.84 186.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 107.188 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical_SMD"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f2fa16-aa05-481c-a4f4-c8df59edf9f3")
+		)
+		(pin "2"
+			(uuid "acf61d42-816a-4afa-910c-687993b0aeb2")
+		)
+		(instances
+			(project "ATXModule"
+				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce94d18b-6abf-43b5-8ae7-fa75c74ecbdc")
+		(property "Reference" "#PWR012"
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.257 184.7342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0411b636-eeea-4f53-8402-667cc6f8fa25")
+		)
+		(instances
+			(project "ATXModule"
+				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cef9c093-e836-435d-bb47-93cb8622b968")
+		(property "Reference" "#PWR011"
+			(at 123.19 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.317 184.7342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ddaaee0-e482-46f9-bb60-6393f84240b8")
+		)
+		(instances
+			(project "ATXModule"
+				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 140.97 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d91e9b1e-8004-46f2-a90f-d47af55b6f1b")
+		(property "Reference" "J6"
+			(at 144.78 186.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 135.128 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical_SMD"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1151ab04-ca16-4200-8339-223a553af0f0")
+		)
+		(pin "2"
+			(uuid "e4862e69-fdbd-4a88-851b-ddb64ca664ba")
+		)
+		(instances
+			(project "ATXModule"
+				(path "/d8aa9ad6-9ed8-4811-b776-ee4327287475"
+					(reference "J6")
 					(unit 1)
 				)
 			)
